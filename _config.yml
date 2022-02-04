@@ -1,32 +1,32 @@
-# Welcome to Beautiful Jekyll!
-# This config file is meant for settings that affect your entire website. When you first
-# set up your website you should go through all these settings and edit them, but after
-# the initial set up you won't need to come back to this file often.
-
 # --- Required options --- #
 
-# Name of website
-title: My Website
+# [수정필요] 웹 페이지 이름
+title: Konkuk Univ CCC
 
-# Your name to show in the footer
-author: Some Person
+# [수정필요] 간단한 사이트 설명
+description: Konkuc Univercity Campus Crusade for Crist
+
+# [수정필요] 웹페이지 아래에 나오는 웹사이트 저자 이름
+author: KUCCC
 
 # --- List of links in the navigation bar --- #
-
+# [조건부수정] 네비게이션 바에 포함되는 항목 (명칭 수정, 추가, 삭제 가능)
+# 예를 들어 Post 라는 항목을 네비게이션 바에 추가하고 싶은 경우, post.md 파일 생성 후 ETRI: "post" 라고 지정.
+# 세부 항목을 추가하고 싶으면 - 를 이용하여 하위 구조를 추가할 수 있음.
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  GitHub: "https://github.com/konkuk-univ-ccc"
+#  About Me: "aboutme"
+#  Resources:
+#    - Beautiful Jekyll: "https://beautifuljekyll.com"
+#    - Learn markdown: "https://www.markdowntutorial.com/"
+#  Author's home: "https://deanattali.com"
 
 # --- Logo --- #
 
-# Image to show in the navigation bar - works best with a square image
-# Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+# [수정필요] 로고 사용 시에는 이미지 파일을 지정 (이미지 파일 업로드 후, 위치 지정)
+avatar: "/assets/img/kuccc-logo.jpeg"
 
-# By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
+# 원형 아바타 이미지 여부 `true` 또는 `false`
 round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
@@ -35,24 +35,24 @@ round-avatar: true
 
 
 # --- Footer social media links --- #
-
+# [수정필요] 웹페이지 하단에 나올 정보를 수정 (다른 사이트 및 커뮤니티에 대한 링크 정보임. 필요 없는 경우 주석 처리)
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+#  email: "someone@example.com"
+#  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+#  facebook: deanattali
+  github: konkuk-univ-ccc
+#  twitter: daattali
+#  patreon: DeanAttali
+  youtube: channel/UCbid8w7HhGuqAIhACWpisSg
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
-#  instagram: deanat78
+  instagram: ccc_konkuk
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
@@ -70,13 +70,13 @@ social-network-links:
 rss-description: This website is a virtual proof that I'm awesome
 
 # --- General options --- #
-
+# [수정필요] 연락을 위한 타 사이트 정보 활성화 여부 지정 (필요 없는 경우 주석 처리)
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
-  linkedin: true
-  vk: false
+#  twitter: true
+#  facebook: true
+#  linkedin: true
+#  vk: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
@@ -98,7 +98,7 @@ post_search: true
 #keywords: "my,list,of,keywords"
 
 # --- Colours / background image --- #
-
+# [조건부수정] 디자인 색 변경
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
 navbar-col: "#EAEAEA"
