@@ -7,7 +7,7 @@ title: yangjun.p
 description: Konkuc Univercity Campus Crusade for Crist
 
 # [수정필요] 웹페이지 아래에 나오는 웹사이트 저자 이름
-author: KUCCC
+author: yangjun-p
 
 # --- List of links in the navigation bar --- #
 # [조건부수정] 네비게이션 바에 포함되는 항목 (명칭 수정, 추가, 삭제 가능)
@@ -24,7 +24,7 @@ navbar-links:
 # --- Logo --- #
 
 # [수정필요] 로고 사용 시에는 이미지 파일을 지정 (이미지 파일 업로드 후, 위치 지정)
-avatar: "/assets/img/kuccc-logo.jpeg"
+avatar: "/assets/img/yangjun.jpg"
 
 # 원형 아바타 이미지 여부 `true` 또는 `false`
 round-avatar: true
